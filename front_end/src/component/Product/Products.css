@@ -1,0 +1,143 @@
+
+.productsHeading {
+    margin:2vmax auto;
+    width:15vw;
+    border-bottom : 1px solid rgba(0,0,0,0.171);
+    padding:2vmax;
+    color:rgba(0,0,0,0.678);
+    font: 500 1.5vmax "Roboto";
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 4vmax;
+}
+
+.products {
+    display:flex;
+    flex-wrap:wrap;
+    padding:0 5vmax;
+    justify-content: center;
+    min-height: 30vh;
+}
+ 
+.paginationBox {
+    display: flex;
+    justify-content: center;
+    margin: 6vmax;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+
+
+.page-item {
+    list-style: none;
+    cursor:pointer;
+   color: black;
+} 
+/* 
+ .page-item:first-child {
+  border-radius: 100%;
+}
+
+.page-item:last-child {
+    border-radius: 100%;
+} */
+
+ .page-link {
+    text-decoration: none;
+    font-size: 1vmax;
+    border-radius: 100%;
+    transition:all 0.3s;
+    margin-left: 2vmax;
+    height: 3.3vmax;
+    width: 3.3vmax;
+    font-weight: bolder;
+    color:#747474;
+} 
+
+/* .page-item:hover { 
+     background-color: rgb(159, 159, 150); 
+    
+} */
+
+.page-item:not(:first-child) .page-link {
+    margin-left: 2vmax;
+}
+
+.page-item:hover .page-link {
+    color:rgb(0,0,0);
+    font-size: 15px;
+} 
+
+.pageItemActive {
+   color: grey;
+}
+
+.pageLinkActive {
+    color:black;
+    background-color: #e3f40b;
+    
+   
+}
+
+.filterBox {
+    width: 10vmax;
+    position: absolute;
+    top:10vmax;
+    left:4vmax;
+}
+
+.price {
+    margin-bottom: 2vmax;
+}
+
+.categories {
+    margin-bottom: 1vmax;
+}
+
+.categoryBox {
+    padding: 0%;
+    margin-bottom: 2.5vmax;
+}
+
+.category-link {
+    list-style: none;
+    color:rgba(0,0,0,0.61);
+    font:400 0.8vmax "Roboto";
+    margin:0.4vmax;
+    cursor:pointer;
+    transition:all 0.5s;
+    font-size: 16px;
+}
+
+.category-link:hover {
+    color:tomato;
+}
+
+.filterBox > fieldset {
+    border: 1px solid rgb(22, 19, 19);
+    padding-left : 1vmax;
+    padding-right : 1vmax;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .filterBox {
+        width: 20vmax;
+        position: static;
+        margin: auto;
+    }
+
+    .page-link {
+        font: 300 1.7vmax "Roboto"; 
+    }
+
+    .category-link {
+        font: 400 1.8vmax "Roboto";
+    }
+}
+
