@@ -189,7 +189,6 @@ export const getAllUsers = () => async (dispatch) => {
         });
     }
     catch(error) {
-        console.log("hello");
         dispatch({type:ALL_USERS_FAIL,payload:error.response.data.message});
     }
 }

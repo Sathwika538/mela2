@@ -88,6 +88,8 @@
   .instagramSvgIcon {
     color: rgb(144, 81, 202);
   }
+   
+
   
   @media screen and (max-width: 600px) {
     .aboutSectionContainer > div {

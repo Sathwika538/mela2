@@ -85,8 +85,8 @@ useEffect(()=>{
    <Route exact path='/login' element={<LoginSignUp />} />
    <Route exact path='/login/shipping' element={!loading && isAuthenticated===false ? <Navigate to="/login"/>:  <Shipping />}/>
    <Route exact path='/order/confirm' element={!loading && isAuthenticated===false ?  <Navigate to="/login"/>:<ConfirmOrder /> }/>
-   <Route exact path='/process/payment' element={<ProtectedRoute> 
-   {stripeApiKey && <Elements stripe={loadStripe('pk_test_51MfojXSG76Mw1GwBBty8q1a55dhLJ1qINw8rIkpwq9qSNDGTzAqAmGazWsyRkzFEgrDJVAlErCbZvKHjpIMEucTi00LA0AC6kg')}><Payment /> </Elements> 
+   <Route exact path='/process/payment' element={<ProtectedRoute isAdmin={false}> 
+   {stripeApiKey && <Elements stripe={loadStripe(stripeApiKey)}><Payment /> </Elements> 
   }</ProtectedRoute>} />
        
     <Route exact path='/success' element={!loading && isAuthenticated===false ?<Navigate to="/login"/>:  <OrderSuccess /> }/>  

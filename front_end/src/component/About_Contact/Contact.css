@@ -4,7 +4,8 @@ h5{
 word-spacing: 10px;
 font-size: 20px;
 font-family: 'San-Serif', cursive;
-color:#7F8487
+color:#7F8487;
+line-height: 28px;
 }
 .container-fluid {
   padding: 3% 8% 7% 15%;
@@ -278,8 +279,9 @@ color: #FFFFFF;
   height: 100vh;
   width:80vh;
   animation:fadeIn 5s;
-  margin-top: 8vmax;
+  margin-top: 2vmax;
   margin-bottom:4vmax;
   margin-left:40vmax;
-font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif; 
+  
 }
