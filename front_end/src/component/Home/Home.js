@@ -24,7 +24,8 @@ const Home = ()=>{
             })
         }
     }, []);
-    return (
+
+return (
       
 <Fragment>
 <MetaData title="melA"/>

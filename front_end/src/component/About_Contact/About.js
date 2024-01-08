@@ -39,19 +39,7 @@ My expertise in front-end development includes proficiency in HTML, CSS, JavaScr
 <br/>
 I enjoy taking a full-stack approach to web development, bringing together my skills in front-end and back-end development to create complete web applications. I have worked on a wide range of projects, including e-commerce sites, data fetchers, and other web applications. Some of my notable projects include melA - ECommerce Website, DataFetchers, and SatThings - PortFolio.
 <br/>
-   {/* I am primarily interested in Web Development.
-        <br/>
-<br/>
-Libraries/Frameworks I have experience with Node.js , jQuery, Bootstrap.
-<br/>
-<br/>
-I am also comfortable with git, Github, API's,
-<br/>
-<br/>
-Frameworks I am currently working on: MongoDB , React.js, Redux
-<br/>
-<br/>
-Programming Languages I am comfortable in: Javascript , SQL , CSS , HTML , C++ ,JAVA. */}
+   
 
         </h5>
           
